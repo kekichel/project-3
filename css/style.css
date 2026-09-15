@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: blanchedalmond;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+main {
+}
+
+footer {
+  background-color: rgb(148, 148, 147);
+  padding: 30px, 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#about {
+  background-color: whitesmoke;
+  padding: 30px, 20px;
+  text-align: center;
+}
+
+#articles {
+  background-color: rgb(216, 214, 214);
+  padding: 30px, 20px;
+}
+
+p {
+  padding: 5px;
+  text-align: justify;
+}
