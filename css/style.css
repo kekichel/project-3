@@ -1,3 +1,8 @@
+html {
+  font-size: 1em;
+  font-family: "Press Start 2P", system-ui;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +11,8 @@
 header {
   background-color: blanchedalmond;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-top: 1.2rem;
+  padding-bottom: 2rem;
 }
 
 main {
@@ -15,25 +20,46 @@ main {
 
 footer {
   background-color: rgb(148, 148, 147);
-  padding: 30px, 20px;
+  padding: 2rem 1.2rem;
 }
 
 h2 {
   text-align: center;
+  font-size: 2rem;
 }
 
 #about {
   background-color: whitesmoke;
-  padding: 30px, 20px;
+  padding: 2rem 1.2rem;
   text-align: center;
 }
 
 #articles {
   background-color: rgb(216, 214, 214);
-  padding: 30px, 20px;
+  padding: 2rem 1.2rem;
+  text-align: center;
 }
 
 p {
-  padding: 5px;
+  padding: 0.5rem;
   text-align: justify;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+ol {
+  padding-left: 6rem;
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+}
+
+nav ul {
+  padding-left: 1rem;
+  padding-top: 2rem;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
 }
