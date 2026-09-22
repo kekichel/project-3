@@ -63,3 +63,11 @@ nav ul {
   display: flex;
   gap: 2rem;
 }
+
+img {
+  padding-top: 1rem;
+}
+
+figcaption {
+  padding-bottom: 1rem;
+}
