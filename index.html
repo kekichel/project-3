@@ -8,6 +8,11 @@
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Евгений Касперский</title>
@@ -26,12 +31,13 @@
               >Сайт Касперского</a
             >
           </li>
+          <li><a href="#registration">Регистрация</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section id="about">
-        <h1>Введение</h1>
+        <h2>Введение</h2>
         <a target="_blank" href="https://www.kaspersky.ru/">
           <figure>
             <img
@@ -65,12 +71,56 @@
         </blockquote>
       </section>
       <section id="articles">
-        <h1>Информация</h1>
+        <h2>Информация</h2>
         <ol type="I">
           <li><a href="article1.html">Ранние годы</a></li>
           <li><a href="article2.html">Карьера</a></li>
           <li><a href="article3.html">Список терминов</a></li>
+          <i class="bi bi-camera2"></i>
         </ol>
+      </section>
+      <section id="registration">
+        <h2>Регистрация</h2>
+        <form class="form-reg" action="">
+          <label for="login">Введите логин</label><br />
+          <input
+            type="text"
+            id="login"
+            name="login"
+            placeholder="Логин"
+            required
+          /><br />
+          <label for="password">Введите пароль</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Пароль"
+            required
+            pattern=""
+          /><br />
+          <label for="city">Выберите город</label>
+          <select name="city" id="city" required>
+            <option value="" disabled selected>Выберите город</option>
+            <option value="chel">Челябинск</option>
+            <option value="ekb">Екатеринбург</option>
+            <option value="mos">Москва</option></select
+          ><br />
+          <label for="comment">Введите комментарий</label><br />
+          <textarea
+            name="comment"
+            id="comment"
+            placeholder="Комментарий"
+            rows="4"
+            cols="21"
+          ></textarea
+          ><br />
+          <input type="checkbox" id="agree" name="agree" />
+          <label for="agree">Согласие на обработку персональных данных</label
+          ><br />
+          <input type="submit" value="Зарегистрироваться" /><br />
+          <input type="reset" />
+        </form>
       </section>
     </main>
     <footer>
